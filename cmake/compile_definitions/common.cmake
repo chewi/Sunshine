@@ -122,7 +122,7 @@ list(APPEND SUNSHINE_EXTERNAL_LIBRARIES
         ${CMAKE_THREAD_LIBS_INIT}
         enet
         opus
-        ${FFMPEG_LIBRARIES}
+        ${FFMPEG_LDFLAGS}
         ${Boost_LIBRARIES}
         ${OPENSSL_LIBRARIES}
         ${CURL_LIBRARIES}
